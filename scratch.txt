@@ -1,0 +1,9 @@
+
+cout << "Word 1 : " << endl;
+for(auto i : char_w1)
+    cout << i.first << " " << i.second << endl;
+
+
+cout << "Word 2 : " << endl;
+for(auto i : char_w2)
+    cout << i.first << " " << i.second << endl;

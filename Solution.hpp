@@ -15,5 +15,6 @@ namespace leetcode
         bool uniqueOccurrences(vector<int>& arr);
         bool halvesAreAlike(string s);
         bool closeStrings(string word1, string word2);
+        bool Solution::winnerOfGame(string colors);
     };
 }

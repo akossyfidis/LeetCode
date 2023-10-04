@@ -2,6 +2,7 @@
     "files.associations": {
         "*.cpp": "cpp",
         "*.c": "c",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "unordered_map": "cpp"
     }
 }

@@ -3,6 +3,7 @@
         "*.cpp": "cpp",
         "*.c": "c",
         "xstring": "cpp",
-        "unordered_map": "cpp"
+        "unordered_map": "cpp",
+        "vector": "cpp"
     }
 }

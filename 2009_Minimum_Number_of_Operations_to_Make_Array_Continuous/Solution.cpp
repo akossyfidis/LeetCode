@@ -6,7 +6,7 @@ using namespace std;
 int Solution::minOperations(vector<int>& nums) {
         int n = nums.size();
         sort(nums.begin(), nums.end());
-        vector<int> uniqueNums(nums.begin(), std::unique(nums.begin(), nums.end()));
+        vector<int> uniqueNums(nums.begin(), unique(nums.begin(), nums.end()));
         int ans = INT_MAX;
 
         for (int i = 0; i < uniqueNums.size(); ++i) {

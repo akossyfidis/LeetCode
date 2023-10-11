@@ -1,5 +1,5 @@
 #include <vector>
-#include <iostream> // header in standard library
+#include <iostream>
 #include <unordered_map>
 #include <unordered_set>
 #include <set>
@@ -7,7 +7,8 @@
 #include <algorithm>
 
 
-/* Hard
+/* Hard (solved using help for the apporach understanding)
+
 You are given an integer array nums. In one operation, you can replace any element in nums with any integer.
 
 nums is considered continuous if both of the following conditions are fulfilled:
@@ -17,8 +18,6 @@ The difference between the maximum element and the minimum element in nums equal
 For example, nums = [4, 2, 5, 3] is continuous, but nums = [1, 2, 3, 5, 6] is not continuous.
 
 Return the minimum number of operations to make nums continuous.
-
- 
 
 Example 1:
 
@@ -47,8 +46,6 @@ Constraints:
 1 <= nums.length <= 105
 1 <= nums[i] <= 109
 */
-
-
 
 using namespace std;
 
